@@ -1,0 +1,4 @@
+<div {{bind-attr class=":alert :alert-page message.typeClass"}}>
+    <button type="button" class="close">×</button>
+    <strong>{{#if message.prefix}}{{message.prefix}}{{else}}Well done!{{/if}}</strong> {{message.text}}
+</div>
